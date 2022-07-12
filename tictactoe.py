@@ -27,7 +27,7 @@ def game():
 
         for i in range(10):
             printBoard(theBoard)
-            print("it's your not turn," + turn + " move to which place?")
+            print("it's your turn," + turn + " move to which place?")
 
             move = input()
 
